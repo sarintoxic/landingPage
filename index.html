@@ -581,8 +581,15 @@
                             <div class="form-group">
                                 <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
                             </div>
+                            <script>
+                                function sendEmail() 
+                                {
+                                    window.location = "mailto:contact@hiiu.ru";
+                                }
+                                </script>
+                               
                             <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                                <button type="submit" class="form-control btn btn-primary" onclick="sendEmail();">Send Message</button>
                             </div>
                         </form>
                     </div>
